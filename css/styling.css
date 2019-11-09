@@ -1,0 +1,17 @@
+#container{
+    position:absolute;
+    height:100%;
+    width:100%;
+    overflow-y:scroll;
+    background:gray;
+}
+
+.section{
+    padding:1em;
+    position:relative;
+    border-bottom:1em blue solid;
+}
+
+.header{
+    height:100%;
+}
