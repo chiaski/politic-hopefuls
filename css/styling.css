@@ -61,14 +61,10 @@ p{
 }
 
 .candidate-photos{
-    width:2000px;
-    height:100px;
-    display:block;
-    position:relative;
+    display: flex;
+    width: calc(30% * 8);
 }
 .candidate-photo{
     width:30%;
-    padding-left: 1%;
-    padding-right: 1%;
-    display:inline-block;
+    display:inline;
 }
