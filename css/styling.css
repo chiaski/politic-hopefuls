@@ -80,6 +80,16 @@ img {
     transition: all .3s linear;
 }
 
+.pic-left {
+    position: absolute;
+    left: 0;
+}
+
+.desc-right {
+    width: 70%;
+    margin-left: 30%;
+}
+
 
 .candidate-sec:hover .candidate-pic {
     filter: grayscale(10%);
@@ -106,6 +116,11 @@ p {
 
     .landing-yang {
         display: none;
+    }
+
+    .desc-right {
+        position: relative;
+        margin: 0;
     }
 
 }
@@ -212,6 +227,11 @@ a.btn-interview {
     font-family: "Canela";
     font-style: italic;
     font-size: 1.6em;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
 }
 
 .btn-interview sub {
@@ -219,6 +239,14 @@ a.btn-interview {
     font-style: normal;
 }
 
+.btn-interview:hover h3 {
+    color: #dd8f07;
+    text-shadow: 0 0 20px #dd8f07;
+}
+
+.btn-interview:hover sub {
+    color: #fff;
+}
 
 h1 {
     font-family: "Canela";
@@ -226,6 +254,7 @@ h1 {
     text-align: center !important;
     display: block;
     font-size: 2.9em;
+    line-height: 1.2em;
     margin: 0;
 }
 
