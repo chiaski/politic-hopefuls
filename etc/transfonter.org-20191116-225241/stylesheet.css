@@ -1,27 +1,4 @@
 @font-face {
-    font-family: 'Canela';
-    src: url('../assets/fonts/Canela-BoldItalic.eot');
-    src: url('../assets/fonts/Canela-BoldItalic.eot?#iefix') format('embedded-opentype'),
-        url('../assets/fonts/Canela-BoldItalic.woff2') format('woff2'),
-        url('../assets/fonts/Canela-BoldItalic.woff') format('woff'),
-        url('../assets/fonts/Canela-BoldItalic.ttf') format('truetype'),
-        url('../assets/fonts/Canela-BoldItalic.svg#Canela-BoldItalic') format('svg');
-    font-weight: bold;
-    font-style: italic;
-}
-
-@font-face {
-    font-family: 'Canela';
-    src: url('../assets/fonts/Canela-Bold.eot');
-    src: url('../assets/fonts/Canela-Bold.eot?#iefix') format('embedded-opentype'),
-        url('../assets/fonts/Canela-Bold.woff2') format('woff2'),
-        url('../assets/fonts/Canela-Bold.woff') format('woff'),
-        url('../assets/fonts/Canela-Bold.ttf') format('truetype'),
-        url('../assets/fonts/Canela-Bold.svg#Canela-Bold') format('svg');
-    font-weight: bold;
-    font-style: normal;
-}
-@font-face {
     font-family: 'Sailec';
     src: url('Sailec-Regular.eot');
     src: url('Sailec-Regular.eot?#iefix') format('embedded-opentype'),
@@ -93,7 +70,3 @@
     font-style: italic;
 }
 
-
-
-
-  @import url("https://use.typekit.net/aey1xxs.css");
