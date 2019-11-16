@@ -1,5 +1,5 @@
 body{
-    background:#262020;
+    background:#141212;
     color:#f0e6e6;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
@@ -24,6 +24,7 @@ body{
     position:relative;
   align-items: center;
   justify-content: center;
+    
 }
 
 .header{
@@ -43,14 +44,34 @@ img{
     vertical-align:top;
 }
 
+
+.candidate-sec{
+    max-width:700px;
+    margin:auto;
+    min-height:450px;
+}
+
+}
 .candidate-desc{
     width:60%;
     
 }
 
 .candidate-pic{
-    width:30%;
-    float:right;
+    position: absolute;
+    width:50%;
+    right:0;
+    z-index:-99;
+    filter: grayscale(100%);-webkit-transition: all .3s linear;
+-moz-transition: all .3s linear;
+-ms-transition: all .3s linear;
+-o-transition: all .3s linear;
+transition: all .3s linear;
+}
+
+
+.candidate-sec:hover .candidate-pic{
+    filter: grayscale(10%);   
 }
 
 p{
@@ -62,6 +83,10 @@ p{
     .candidate{
         text-align: center;
         width:100%;
+    }
+    
+    .candidate-pic{
+        position:relative;
     }
     
     .header-title{
@@ -83,7 +108,14 @@ p{
 h1{
     font-family:"Canela";
     color:#f0eaea;
+    text-align: center !important;
+    display:block;
+    font-size:6.2vw;
+    margin:0;
 }
+
+h2{margin:0;
+    margin-left:10%;}
 
 .candidate{
     padding:2%;
