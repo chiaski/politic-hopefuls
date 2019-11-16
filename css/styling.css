@@ -1,219 +1,237 @@
-body{
-    background:#141212;
-    color:#f0e6e6;
+body {
+    background: #141212;
+    color: #f0e6e6;
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family:"Sailec";
+    font-family: "Sailec";
 }
 
-#container{
-    position:absolute;
-    height:100%;
-    width:100%;
-    top:0; left:0;
-    display:flex;
-    flex-wrap:wrap;
-    vertical-align: center;
-    align-items:center;
-}
-
-.section{
-    padding:1em;
-    width:100%;
-    position:relative;
-  align-items: center;
-  justify-content: center;
-    
-}
-
-.header{
-    min-height:500px;
-    flex-wrap:wrap;
-    vertical-align: center;
-    align-items:center;
-    background-image:url(../assets/images/landing-bg.png);
-    background-repeat: repeat-x;
-    background-position:center top;
-    background-size:contain;
-}
-
-img{
-    max-height:200px;
-    max-width: 100%;
-        
-}
-
-.candidate{
-    display:inline-block; 
-    vertical-align:top;
-}
-
-
-.candidate-sec{
-    padding:30px 0 30px 0;
-    max-width:700px;
-    margin:auto;
-    min-height:450px;
-}
-
-}
-.candidate-desc{
-    width:60%;
-    
-}
-
-.candidate-pic{
+#container {
     position: absolute;
-    width:50%;
-    right:0;
-    z-index:-99;
-    filter: grayscale(100%);-webkit-transition: all .3s linear;
--moz-transition: all .3s linear;
--ms-transition: all .3s linear;
--o-transition: all .3s linear;
-transition: all .3s linear;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: center;
+    align-items: center;
+}
+
+.section {
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.header {
+    min-height: 500px;
+    flex-wrap: wrap;
+    vertical-align: center;
+    align-items: center;
+    background-image: url(../assets/images/landing-bg.png);
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-size: contain;
+}
+
+img {
+    max-height: 200px;
+    max-width: 100%;
+
+}
+
+.candidate {
+    display: inline-block;
+    vertical-align: top;
 }
 
 
-.candidate-sec:hover .candidate-pic{
-    filter: grayscale(10%);   
+.candidate-sec {
+    padding: 30px 0 30px 0;
+    max-width: 700px;
+    width: 90%;
+    min-height: 450px;
 }
 
-p{
+}
+
+.candidate-desc {
+    width: 60%;
+
+}
+
+.candidate-pic {
+    position: absolute;
+    width: 50%;
+    right: 0;
+    z-index: -99;
+    filter: grayscale(100%);
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
+}
+
+
+.candidate-sec:hover .candidate-pic {
+    filter: grayscale(10%);
+}
+
+p {
     text-align: left;
 }
 
-@media only screen and (max-width:600px){
-    
-    .candidate{
+@media only screen and (max-width:600px) {
+
+    .candidate {
         text-align: center;
-        width:100%;
+        width: 100%;
     }
-    
-    .candidate-pic{
-        position:relative;
+
+    .candidate-pic {
+        position: relative;
     }
-    
-    .header-title{
-        margin-top:40% !important;
+
+    .header-title {
+        margin-top: 40% !important;
     }
-    
-    .landing-yang{display:none;}
-    
+
+    .landing-yang {
+        display: none;
+    }
+
 }
-.candidate-photos{
+
+.candidate-photos {
     display: flex;
     width: calc(30% * 8);
 }
-.candidate-photo{
-    width:30%;
-    display:inline;
+
+.candidate-photo {
+    width: 30%;
+    display: inline;
 }
 
-h1{
-    font-family:"Canela";
-    color:#f0eaea;
-    text-align: center !important;
-    display:block;
-    font-size:2.6em;
-    margin:0;
+
+.candidate {
+    padding: 2%;
 }
 
-h2{margin:0;
-    margin-left:10%;}
-
-.candidate{
-    padding:2%;
-}
-
-.landing{
-    position:relative;
-    height:100%;
-    min-height:500px;
-    display:flex;
+.landing {
+    position: relative;
+    height: 100%;
+    min-height: 500px;
+    display: flex;
     vertical-align: center;
     justify-content: center;
 }
 
-.landing-img{
-    position:absolute; 
-    background-size:contain;
-    background-repeat:no-repeat;
+.landing-img {
+    position: absolute;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
-.header-title{
-    margin-top:100px;
+.header-title {
+    margin-top: 100px;
 }
 
-.header h1{  
+.header h1 {
     font-weight: 700;
     font-style: normal;
     text-transform: uppercase;
-    font-family:"Optima";
-    color:#ffa906;
-    letter-spacing:1px;
-    max-width:600px;
-    margin:0;
+    font-family: "Optima";
+    color: #ffa906;
+    letter-spacing: 1px;
+    max-width: 600px;
+    margin: 0;
 }
 
-.header h2{
-    margin:0;
-    font-family:"Canela";
-    font-weight:100;
-    font-size:1.7em;
-    font-style:italic;
+.header h2 {
+    margin: 0;
+    font-family: "Canela";
+    font-weight: 100;
+    font-size: 1.7em;
+    font-style: italic;
     text-align: center;
 }
 
-.header .title{
-    font-size:4.2em;
-    line-height:1em;
+.header .title {
+    font-size: 4.2em;
+    line-height: 1em;
     text-align: center;
-font-weight: 700;
-font-style: normal;
+    font-weight: 700;
+    font-style: normal;
 }
 
-.header .open{
-    padding:5% 5% 100px 5%;
+.header .open {
+    padding: 5% 5% 100px 5%;
 }
 
-#intro .header-description{
-    display:block;
-    margin:0 auto;
-    bottom:0px;
-    height:auto;
-    width:90%;
+#intro .header-description {
+    display: block;
+    margin: 0 auto;
+    bottom: 0px;
+    height: auto;
+    width: 90%;
     font-family: Sailec;
-    padding:2em;
-    line-height:1.7em;
-    max-width:600px;
-    margin-bottom:1em;
+    padding: 2em;
+    line-height: 1.7em;
+    max-width: 600px;
+    margin-bottom: 1em;
 }
 
-.header-description a{
-    font-family:"Canela";
+.header-description a {
+    font-family: "Canela";
     text-align: center;
-    color:#f7f1f1;
+    color: #f7f1f1;
     text-decoration: none;
-    font-size:22px;
+    font-size: 22px;
 }
 
-.header .header-description img{
-    max-width:200px;
+.header .header-description img {
+    max-width: 200px;
 }
 
-a.btn-interview{border:0;text-decoration:none;}
-
-.btn-interview h3{
+a.btn-interview {
+    border: 0;
     text-decoration: none;
-    color:#fff;
-    font-family:"Canela";
-    font-style:italic;
-    font-size:1.6em;
 }
 
-.btn-interview sub{
-    font-weight:100;
-    font-style:normal;
+.btn-interview h3 {
+    text-decoration: none;
+    color: #fff;
+    font-family: "Canela";
+    font-style: italic;
+    font-size: 1.6em;
+}
+
+.btn-interview sub {
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+h1 {
+    font-family: "Canela";
+    color: #f0eaea;
+    text-align: center !important;
+    display: block;
+    font-size: 2.9em;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
+    margin-left: 10%;
+    font-weight: 500;
+    font-size: 1.4em;
 }
