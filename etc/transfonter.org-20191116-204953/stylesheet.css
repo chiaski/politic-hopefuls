@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-BoldItalic.eot');
+    src: url('Canela-BoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('Canela-BoldItalic.woff2') format('woff2'),
+        url('Canela-BoldItalic.woff') format('woff'),
+        url('Canela-BoldItalic.ttf') format('truetype'),
+        url('Canela-BoldItalic.svg#Canela-BoldItalic') format('svg');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Canela';
+    src: url('Canela-Bold.eot');
+    src: url('Canela-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Canela-Bold.woff2') format('woff2'),
+        url('Canela-Bold.woff') format('woff'),
+        url('Canela-Bold.ttf') format('truetype'),
+        url('Canela-Bold.svg#Canela-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
