@@ -28,11 +28,14 @@ body{
 }
 
 .header{
+    min-height:500px;
     flex-wrap:wrap;
     vertical-align: center;
     align-items:center;
     background-image:url(../assets/images/landing-bg.png);
-    background-size:cover;
+    background-repeat: repeat-x;
+    background-position:center top;
+    background-size:contain;
 }
 
 img{
@@ -48,7 +51,7 @@ img{
 
 
 .candidate-sec{
-    padding:50px 0 50px 0;
+    padding:30px 0 30px 0;
     max-width:700px;
     margin:auto;
     min-height:450px;
@@ -113,7 +116,7 @@ h1{
     color:#f0eaea;
     text-align: center !important;
     display:block;
-    font-size:6.2vw;
+    font-size:2.6em;
     margin:0;
 }
 
@@ -150,7 +153,6 @@ h2{margin:0;
     font-family:"Optima";
     color:#ffa906;
     letter-spacing:1px;
-    line-height:1.3em;
     max-width:600px;
     margin:0;
 }
@@ -159,14 +161,14 @@ h2{margin:0;
     margin:0;
     font-family:"Canela";
     font-weight:100;
-    font-size:2.7vw;
+    font-size:1.7em;
     font-style:italic;
     text-align: center;
 }
 
 .header .title{
-    font-size:8vw;
-    line-height:8.3vw;
+    font-size:4.2em;
+    line-height:1em;
     text-align: center;
 font-weight: 700;
 font-style: normal;
@@ -183,7 +185,7 @@ font-style: normal;
     height:auto;
     width:90%;
     font-family: Sailec;
-    font-size:1.1em;
+    padding:2em;
     line-height:1.7em;
     max-width:600px;
     margin-bottom:1em;
@@ -201,4 +203,17 @@ font-style: normal;
     max-width:200px;
 }
 
+a.btn-interview{border:0;text-decoration:none;}
 
+.btn-interview h3{
+    text-decoration: none;
+    color:#fff;
+    font-family:"Canela";
+    font-style:italic;
+    font-size:1.6em;
+}
+
+.btn-interview sub{
+    font-weight:100;
+    font-style:normal;
+}
