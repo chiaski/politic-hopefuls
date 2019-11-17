@@ -60,7 +60,6 @@ img {
     min-height: 450px;
 }
 
-}
 
 .candidate-desc {
     width: 60%;
@@ -70,7 +69,7 @@ img {
 .candidate-pic {
     position: absolute;
     width: 50%;
-    right: 0;
+    right: 0px;
     z-index: -99;
     filter: grayscale(100%);
     -webkit-transition: all .3s linear;
@@ -82,7 +81,7 @@ img {
 
 .pic-left {
     position: absolute;
-    left: 0;
+    left: 10px
 }
 
 .desc-right {
@@ -237,6 +236,11 @@ a.btn-interview {
 .btn-interview sub {
     font-weight: 100;
     font-style: normal;
+    -webkit-transition: all .3s linear;
+    -moz-transition: all .3s linear;
+    -ms-transition: all .3s linear;
+    -o-transition: all .3s linear;
+    transition: all .3s linear;
 }
 
 .btn-interview:hover h3 {
@@ -260,7 +264,10 @@ h1 {
 
 h2 {
     margin: 0;
-    margin-left: 10%;
     font-weight: 500;
     font-size: 1.4em;
+}
+
+.candidate-sec p {
+    margin: 0;
 }
