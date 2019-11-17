@@ -47,7 +47,7 @@ body {
     background-image: url(../assets/images/landing-bg.png);
     background-repeat: repeat-x;
     background-position: center top;
-    background-size: contain;
+    background-size: cover;
 }
 
 img {
@@ -135,7 +135,7 @@ p {
         margin-top: 20% !important;
         padding: 1em;
         font-size: .8em;
-        ;
+        margin: 0 1em 0 1em;
         box-sizing: border-box;
     }
 
@@ -221,7 +221,8 @@ p {
 }
 
 .header .title {
-    font-size: 4.1em;
+    font-size: 3.8em;
+    margin: 0 1em 0 1em;
     padding: 0 1em 0 1em;
     line-height: 1em;
     text-align: center;
@@ -235,7 +236,7 @@ p {
 
 #intro .header-description {
     display: block;
-    margin: 0 auto;
+    margin-top: -6em;
     bottom: 0px;
     height: auto;
     width: 90%;
@@ -244,6 +245,7 @@ p {
     line-height: 1.7em;
     max-width: 600px;
     margin-bottom: 1em;
+
 }
 
 .header-description a {
