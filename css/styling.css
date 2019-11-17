@@ -126,12 +126,14 @@ p {
 
 .candidate-photos {
     display: flex;
-    width: calc(30% * 8);
+    position: relative;
+    width: 100%;
+    padding: 0 1em 0 1em;
 }
 
 .candidate-photo {
-    width: 30%;
-    display: inline;
+    display: inline-block;
+    min-width: 170px;
 }
 
 
