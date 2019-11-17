@@ -100,6 +100,10 @@ p {
 
 @media only screen and (max-width:600px) {
 
+    .header {
+        background-size: cover;
+    }
+
     .candidate {
         text-align: center;
         width: 100%;
@@ -292,11 +296,33 @@ h2 {
 
 #footer {
     border-top: 1px solid #fff;
-    padding: 1em;
+    width: 100%;
+}
+
+#footer p {
+    display: block;
+    font-size: .9em;
+    float: none;
+    clear: both;
 }
 
 #footer a {
-    font-family: "Canela"
+    font-family: "Canela";
+    display: block;
+    margin: 0;
+    padding: .5em;
+    text-decoration: none;
+    color: #fff;
+}
+
+#footer a:hover {
+    color: #f8c779;
+}
+
+#footer h3 {
+    display: block;
+    float: none;
+    clear: both;
 }
 
 .candidate-title {
