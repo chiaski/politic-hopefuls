@@ -69,7 +69,7 @@ img {
 .candidate-pic {
     position: absolute;
     width: 50%;
-    right: 0px;
+    right: 20px;
     z-index: -99;
     filter: grayscale(100%);
     -webkit-transition: all .3s linear;
@@ -81,7 +81,7 @@ img {
 
 .pic-left {
     position: absolute;
-    left: 10px
+    right: 30%;
 }
 
 .desc-right {
@@ -128,12 +128,13 @@ p {
     display: flex;
     position: relative;
     width: 100%;
-    padding: 0 1em 0 1em;
+    padding: 1em 0 1em;
 }
 
 .candidate-photo {
     display: inline-block;
     min-width: 170px;
+    margin: 0 1em 0 1em;
 }
 
 
@@ -265,11 +266,35 @@ h1 {
 }
 
 h2 {
-    margin: 0;
+    text-decoration: none;
+    clear: both;
+    margin: -.5em;
+    color: #f8c779;
     font-weight: 500;
-    font-size: 1.4em;
+    font-size: 1.1em;
 }
 
 .candidate-sec p {
     margin: 0;
+}
+
+
+#footer {
+    border-top: 1px solid #fff;
+    padding: 1em;
+}
+
+#footer a {
+    font-family: "Canela"
+}
+
+.candidate-title {
+    text-align: center;
+    display: block;
+}
+
+.candidate-title h2 {
+    margin: 0;
+    padding: 0;
+    margin-bottom: -1em;
 }
