@@ -129,6 +129,10 @@ p {
 
     .candidate-pic {
         position: relative;
+        text-align: center;
+        float: none;
+        clear: both;
+        left: 0;
     }
 
     .header-title {
@@ -392,6 +396,7 @@ h2 {
     top: 30px;
     left: 5px;
     color: #f8c779;
+    line-height: 10px;
 }
 
 
