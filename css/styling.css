@@ -122,6 +122,17 @@ p {
         margin: 0;
     }
 
+    .pic-left {
+        position: relative;
+        right: 0;
+    }
+
+    .candidate-title {
+        float: none;
+        clear: both;
+        text-align: center;
+    }
+
 }
 
 .candidate-photos {
