@@ -362,3 +362,42 @@ h2 {
     padding: 0;
     margin-bottom: -1em;
 }
+
+.candidate-desc em {
+    font-weight: bold;
+    font-style: normal;
+}
+
+.candidate-desc quoteblock {
+    padding: 1em;
+    quotes: "“""”""‘""’";
+}
+
+
+.candidate-desc quoteblock:before {
+    content: open-quote;
+    font-size: 3.5em;
+    position: relative;
+    display: inline;
+    top: 20px;
+    left: -3px;
+    color: #f8c779;
+}
+
+.candidate-desc quoteblock:after {
+    content: close-quote;
+    font-size: 3.5em;
+    position: relative;
+    display: inline;
+    top: 30px;
+    left: 5px;
+    color: #f8c779;
+}
+
+
+
+
+.thepolitic {
+    font-family: "Georgia" !important;
+    font-weight: 800;
+}
